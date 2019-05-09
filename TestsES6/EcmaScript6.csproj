@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Scripts\CheckBoxQuestion.js" />
+    <Content Include="Scripts\Logic.js" />
+    <Content Include="Scripts\Question.js" />
+    <Content Include="Scripts\RadioQuestion.js" />
+    <Content Include="Scripts\TestController.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\bundle.js" />
+    <None Include="wwwroot\assets\bundle.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
